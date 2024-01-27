@@ -2,6 +2,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 
 import React, { useRef } from "react";
+import { pointsInner } from "../utils";
 
 const LandingPage = () => {
     return (
@@ -24,9 +25,7 @@ const PointCircle = () => {
     });
     return (
         <group ref={ref}>
-           <Point position={[0,0,0]} color="red"/>
-           <Point position={[1,1,1]} color="red"/>
-           <Point position={[2,2,2]} color="red"/>
+            {pointsInner.map(point => <Point key={point.idx} position={point.position} color={point.color} />)}
         </group>
     );
 };
