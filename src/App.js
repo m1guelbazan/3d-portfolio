@@ -1,5 +1,5 @@
 import './App.css';
-import LandingPage from './components/threeD/LandingPage';
+import LandingPage from './pages/LandingPage';
 
 
 
