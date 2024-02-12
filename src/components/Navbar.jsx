@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Navbar=()=>{
+
+ const Navbar=()=>{
     return (    
                 <div className='navBar'>
                     <div className='LandingPage'>
