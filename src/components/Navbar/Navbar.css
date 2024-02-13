@@ -10,8 +10,10 @@
 .navbar-logo {
     color: white;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: -50px;
     cursor: pointer;
+
+    
 }
 
 .fa-react{
@@ -66,12 +68,12 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 500px;
+        height: 550px;
         position: absolute;
         top: 80px;
         left: -100%;
         opacity: 1;
-        transition: all 0.5 ease;
+        transition: all 0.5s ease;
     }
 
     .nav-menu.active {
@@ -99,6 +101,11 @@
         top: 0;
         left: 0; 
         transform: translate(25%, 50%);
+        justify-self: start;
+        margin-left: 20px;
+        margin-top: 10px;
+        
+        
     }
 
     .menu-icon {
@@ -138,5 +145,5 @@
     Button {
         display: none;
     }
-    
+
 }
