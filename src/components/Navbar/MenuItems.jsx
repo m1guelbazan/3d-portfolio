@@ -23,4 +23,11 @@ export const MenuItems = [
     cName: 'nav-links',
     },
 
+    {
+        title: 'Github',
+        url: '/Github',
+        cName: 'nav-links-mobile',
+    },
+
+
 ]
