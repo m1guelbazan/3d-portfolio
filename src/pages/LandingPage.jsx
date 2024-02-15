@@ -4,6 +4,7 @@ import { OrbitControls, Sphere } from "@react-three/drei";
 import React, { useRef } from "react";
 import { pointsInner, pointsOuter } from "./utils";
 
+
 const LandingPage = () => {
     return (
         <div className="relative">
