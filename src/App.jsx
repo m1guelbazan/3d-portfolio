@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 
 
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+
 import LandingPage from './pages/LandingPage';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -11,7 +11,6 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-    <Navbar/>
       <div className="App">
         <Routes>        
           <Route path="/"  element={<LandingPage/>} />
@@ -22,6 +21,6 @@ function App() {
       </div>
     </>
   );
-};
+}
 
 export default App;

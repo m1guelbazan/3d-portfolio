@@ -1,7 +1,11 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
+
+
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { pointsInner, pointsOuter } from "./utils";
 
 
